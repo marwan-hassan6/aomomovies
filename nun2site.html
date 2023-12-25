@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>The NUN 2</title>
+    <style>
+        @keyframes coloring {
+            0% {
+                color: rgb(28, 35, 227);
+            }
+            25% {
+                color: rgb(0, 81, 255);
+            }
+            50% {
+                color: rgb(7, 131, 255);
+            }
+            75% {
+                color: rgb(0, 183, 255);
+            }
+            100% {
+                color: rgb(0, 102, 255);
+            }
+        }
+        
+        body {
+            background-image: url(nunn2site.webp);
+            background-size: cover;
+            height: auto;
+        }
+        
+        .header {
+            display: flex;
+            padding-left: 55px;
+            z-index: 99;
+            justify-content: space-between;
+            object-position: center;
+        }
+        
+        .header .topline {
+            display: flex;
+            width: 400px;
+            position: relative;
+            height: fit-content;
+            justify-content: space-around;
+            object-position: center;
+            top: 20px;
+        }
+        
+        .header h2 {
+            margin: 15px -20px 20px;
+            font-family: 'Rubik Doodle Shadow';
+            color: rgb(115, 192, 255);
+            font-size: 40px;
+        }
+        
+        .home a {
+            font-size: 25px;
+            color: #fff;
+            cursor: pointer;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            width: 40PX;
+        }
+        
+        .home a:hover {
+            animation-name: coloring;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-duration: normal;
+        }
+        
+        .cat a {
+            font-size: 25px;
+            color: #fff;
+            border-color: rgb(70 48 238);
+            cursor: pointer;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .cat a:hover {
+            animation-name: coloring;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-duration: normal;
+        }
+        
+        .login a {
+            font-size: 25px;
+            color: #fff;
+            border-color: rgb(70 48 238);
+            cursor: pointer;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .login a:hover {
+            animation-name: coloring;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-duration: normal;
+        }
+        
+        .about p {
+            margin-left: 650px;
+            display: grid;
+            color: white;
+            font-size: 20px;
+            width: fit-content;
+            background: #f0ffff06;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        .trailer {
+            margin-left: 500px;
+            background: rgba(255, 255, 255, 0.039);
+            width: fit-content;
+            height: fit-content;
+            cursor: pointer;
+        }
+        
+        .trailer p {
+            color: #fff;
+            font-size: x-large;
+            font-family: fantasy;
+            text-align: center;
+            text-decoration: double;
+        }
+        
+        .btn {
+            display: flex;
+            justify-content: flex-end;
+            position: relative;
+            margin: 10px 50px 0 0;
+        }
+        
+        .btn button {
+            color: #fff;
+            background-color: rgb(13, 74, 241);
+            font-size: 30px;
+            border: 1px rgb(70 48 238);
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="header">
+
+        <h2 class="logo">AOMO MOVIES</h2>
+
+        <form class="topline">
+            <div class="home"><a href='index1.html'>Home</a></div>
+            <div class="cat"><a href="categories.html">Categories</a></div>
+            <div class="login"><a href="login.html">Login</a></div>
+        </form>
+    </div>
+    <div class="about">
+        <p>
+            1956 - France. A priest is murdered. An evil is spreading. The sequel to the worldwide smash hit follows Sister Irene as she once again comes face-to-face with Valak, the demon nun.
+            <br><br>
+            <br> Type: Movie <br><br> Country: United States<br><br> Genre: Thriller, Mystery, Horror<br><br> Release: Sep 07, 2018<br><br> Director: Corin Hardy<br><br> Production: New Line Cinema, Atomic Monster, The Safran Company<br><br> Cast: Demián
+            Bichir, Taissa Farmiga, Jonas Bloquet
+
+        </p>
+    </div>
+    <div class="trailer">
+        <p>Watch the trailer now ...!</p>
+        <video src="EXTRACTION 2.mp4" width="800px" height="450px" controls></video>
+    </div>
+    <div class="btn">
+        <form> <a><button>Watch Now</button></a>
+            <a><button>Download Now</button></a></form>
+    </div>
+</body>
+
+</html>

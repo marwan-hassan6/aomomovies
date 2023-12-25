@@ -1,0 +1,126 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    * {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        background-image: url(catbackg.gif);
+        background-size: cover;
+    }
+    
+    header {
+        background-color: #adbaeb24;
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 200px;
+        border-bottom: solid #acf5ff;
+    }
+    
+    .logo {
+        text-decoration: none;
+        color: #acf5ff;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.8em;
+        font-family: 'Rubik Doodle Shadow';
+    }
+    
+    .navigation a {
+        color: #ffffff;
+        text-decoration: none;
+        /*no underline*/
+        font-size: 1.1em;
+        /* 1em=16px page relative*/
+        font-weight: 500;
+        padding-left: 30px;
+    }
+    
+    .navigation a:hover {
+        color: #3a6cf4;
+    }
+    
+    .b1 {
+        padding: 100px 345px;
+    }
+    
+    section {
+        padding: 100px 200px;
+    }
+    
+    .main-btn {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        color: #ffffff;
+        background-color: #af6e39;
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 600;
+        padding: 0.9375em 2.1875em;
+        letter-spacing: 1px;
+        border-radius: 15px;
+        margin-bottom: 40px;
+        transition: 0.7s ease;
+        /*button animation*/
+    }
+    /*button animation*/
+    
+    .main-btn:hover {
+        background-color: #0a49f6;
+        transform: scale(1.1);
+    }
+    
+    .title {
+        display: flex;
+        justify-content: center;
+        color: #acf5ff;
+        font-size: 2.2em;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+    
+    .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        /*add in a row not column */
+        flex-wrap: wrap;
+        /*to make the card look good and dont shrink*/
+    }
+    
+    .card {
+        background-color: #444dbb70;
+        width: 21.25em;
+        box-shadow: 0 5px 25px rgb(0 196 255 / 75%);
+        border-radius: 10px;
+        padding: 25px;
+        /*space inside elements*/
+        margin: 15px;
+        /*space between elements*/
+        transition: 0.7s ease;
+    }
+    
+    .card:hover {
+        transform: scale(1.1);
+    }
+    
+    .info {
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    .info h3 {
+        color: #ffffff;
+        font-size: 1.2em;
+        font-weight: 700;
+        margin: 10px;
+    }

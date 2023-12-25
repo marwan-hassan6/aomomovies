@@ -1,0 +1,150 @@
+        @keyframes coloring {
+            0% {
+                color: rgb(227, 28, 157);
+            }
+            25% {
+                color: rgb(255, 0, 157);
+            }
+            50% {
+                color: rgb(234, 7, 255);
+            }
+            75% {
+                color: rgb(128, 0, 255);
+            }
+            100% {
+                color: rgb(0, 102, 255);
+            }
+        }
+        
+        body {
+            background-image: url(homebackg.gif);
+            background-size: cover;
+            height: auto;
+        }
+        
+        .header {
+            display: flex;
+            padding-left: 55px;
+            z-index: 99;
+            justify-content: space-between;
+            object-position: center;
+        }
+        
+        .header .topline {
+            display: flex;
+            width: 400px;
+            position: relative;
+            height: fit-content;
+            justify-content: space-around;
+            object-position: center;
+            top: 20px;
+        }
+        
+        .header h2 {
+            margin: 15px -20px 20px;
+            font-family: 'Rubik Doodle Shadow';
+            color: rgb(225 18 109);
+            font-size: 40px;
+        }
+        
+        .home a {
+            font-size: 25px;
+            color: thistle;
+            cursor: pointer;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            width: 40PX;
+        }
+        
+        .home a:hover {
+            animation-name: coloring;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-duration: normal;
+        }
+        
+        .cat a {
+            font-size: 25px;
+            color: thistle;
+            border-color: rgb(70 48 238);
+            cursor: pointer;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .cat a:hover {
+            animation-name: coloring;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-duration: normal;
+        }
+        
+        .login a {
+            font-size: 25px;
+            color: thistle;
+            border-color: rgb(70 48 238);
+            cursor: pointer;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .login a:hover {
+            animation-name: coloring;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-duration: normal;
+        }
+        
+        .welcome {
+            text-transform: uppercase;
+            color: thistle;
+            font-size: 30px;
+            text-align: center;
+            margin: 30px 0 30px;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .movies {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0px;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        
+        .card {
+            background-color: rgba(255, 255, 255, 0.55);
+            width: 200px;
+            box-shadow: 0 5px 25px rgb(225 18 109);
+            border-radius: 8px;
+            padding: 25px;
+            margin: 15px;
+            transition: 0.7s ease;
+        }
+        
+        .card:hover {
+            transform: scale(1.1);
+        }
+        
+        .movies a {
+            color: rgb(79, 3, 3);
+            text-decoration: none;
+            font: bold;
+            text-shadow: 1px rebeccapurple;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        .card p {
+            color: rgba(0, 13, 44, 0.873);
+            text-decoration: none;
+            font: bold;
+            text-shadow: rebeccapurple;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
